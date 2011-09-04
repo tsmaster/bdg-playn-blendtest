@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to='blendtest'>
+  <inherits name='forplay.ForPlay'/>
+  <entry-point class='com.bigdicegames.blendtest.entry.html.BlendTestEntryHtml'/>
+  <source path='core'/>
+  <source path='entry/html'/>
+  <public path="resources"/>
+</module>

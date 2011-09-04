@@ -1,0 +1,19 @@
+			 PlayN Blending Test
+		 One of Many Big Dice Games Tutorials
+			   By Dave LeCompte
+
+One feature of PlayN that I had thought was missing at first was the
+ability to recolor my images (e.g. to have programmatically and
+dynamically colored cars in a driving game, or to have colored
+bitmapped text). Later, I thought that it was possible, but not
+reliable.
+
+So, I built this sample to explore what compositing options were
+available, and which ones actually accomplished the results I wanted
+(SRC_OVER or DST_OVER go a long way to satisfying my needs).
+
+Along the way, I realized that the HTML5 Canvas Global Composite
+Operations provide a sufficient toolset, but you have to be careful
+about how you use it in order to get the behavior you expect.
+
+Hopefully, somebody else can benefit from my experiments.
